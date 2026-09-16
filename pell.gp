@@ -65,7 +65,7 @@ quadrato_perfetto(n) =
 }
 
 \\ Pre: d numero naturale non quadrato perfetto, m numero intero diverso da zero e da uno
-\\ Post: restituisce l'insieme R dei rappresentanti delle orbite delle soluzioni e la soluzione fondamentale dell'equazione di Pell associata. nella forma [R, [p, q]]
+\\ Post: restituisce l'insieme R dei rappresentanti delle orbite delle soluzioni e la soluzione fondamentale dell'equazione di Pell associata. nella forma [[p, q], R]
 risolvi_generalizzata(d, m) = 
 {
   my(epsilon, e, x, y, y_lim, R);
